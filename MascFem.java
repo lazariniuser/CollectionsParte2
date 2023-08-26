@@ -33,10 +33,10 @@ public class MascFem {
 
         }
 
-        for (int i = 0; i < cadastrados[contador].length; i++) {
+        for (int i = 0; i < contador; i++) {
             System.out.println((i + 1) + ": " + cadastrados[i][0] + "; Gênero: " + cadastrados[i][1]);
 
         }
-        System.out.println("Total de " + (contador - 1) + " candidatos inscritos para estudar na escola.");
+        System.out.println("Total de " + contador + " candidatos inscritos para estudar na escola.");
     }
 }
